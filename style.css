@@ -1,0 +1,57 @@
+img {
+    border: solid;
+    border-color: black;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    color: white;
+    background-color: #606060;
+    justify-content: space-between;
+    font-family: fantasy;
+    font-size:30px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+.item {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color: mistyrose;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("images/bg.png");
+    background-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: medium;
+}
+
+.intro {
+    background-color: mistyrose;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+image{
+    display: flex;
+    justify-content: center;
+}
